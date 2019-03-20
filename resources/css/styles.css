@@ -1,0 +1,29 @@
+#wrapper {
+    margin: 200px 20%;
+}
+#wrapper .author {
+    color: rgb(187, 187, 187);
+    font-size: .7em;
+    position: absolute;
+    z-index: 5;
+    top: 3px;
+    right: 6px;
+}
+
+.drop-area {
+    border: dashed 2px #DDD;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: #CCC;
+    background: #f7f7f7;
+    background-clip: border-box;
+    width: 100%
+}
+.drop-area p {
+    margin-top: 25px !important
+}
+.drop-area input {
+    display: none;
+}
